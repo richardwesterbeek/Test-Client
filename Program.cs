@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Test_Shared;
 
 namespace Test_Client
 {
@@ -10,6 +7,8 @@ namespace Test_Client
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(new Class1().Test());
+            Console.ReadKey();
         }
     }
 }
