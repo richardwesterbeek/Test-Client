@@ -1,5 +1,5 @@
 ﻿using System;
-using Test_Shared;
+//using Test_Shared;
 
 namespace Test_Client
 {
@@ -7,7 +7,7 @@ namespace Test_Client
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(new Class1().Test());
+            //Console.WriteLine(new Class1().Test());
             Console.ReadKey();
         }
     }
